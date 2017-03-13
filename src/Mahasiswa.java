@@ -41,6 +41,9 @@ public class Mahasiswa extends Orang{
             jumlahKelas++;
         }
     }
+    public Kelas getKelas(int id){
+        return pilihan[id];
+    }
     public void removePilihan(int id){
         pilihan[id]=null;
         for (int i=id; i < jumlahKelas; i++){

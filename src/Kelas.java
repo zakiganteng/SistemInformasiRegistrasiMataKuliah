@@ -45,4 +45,5 @@ public class Kelas {
         this.dosen = dosen;
     }
     //end of setter/getter
+    
 }
