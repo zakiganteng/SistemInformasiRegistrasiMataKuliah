@@ -146,11 +146,11 @@ public class Aplikasi {
     public void createFile() {
         try {
             Mahasiswa mhs1 = new Mahasiswa("Zaki","1103130047","zakaria","zakaria",8,"Informatika");
-            //Mahasiswa mhs2 = new Mahasiswa("y","130115","yy","passwordayy",4,"x");
-            //Mahasiswa mhs3 = new Mahasiswa("x","130115","cc","passwordx",4,"Px");
+            Mahasiswa mhs2 = new Mahasiswa("Afif","1301154133","afif","030797",4,"Informatika");
+            Mahasiswa mhs3 = new Mahasiswa("Rinaldi","1301154357","naldi","123",4,"Informatika");
             daftarMahasiswa.add(mhs1);
-            //daftarMahasiswa.add(mhs2);
-            //daftarMahasiswa.add(mhs3);
+            daftarMahasiswa.add(mhs2);
+            daftarMahasiswa.add(mhs3);
             
             Dosen dsn1 = new Dosen("Nami","6603105577");
             Dosen dsn2 = new Dosen("Zoro","6603107854");
