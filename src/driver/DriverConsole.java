@@ -9,7 +9,7 @@ import model.Aplikasi;
  *
  * @author ASUS
  */
-public class Driver {
+public class DriverConsole {
     public static void main(String[] args) {
         Aplikasi app = new Aplikasi();
         app.mainMenu();
